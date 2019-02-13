@@ -18,16 +18,16 @@
  @charset "utf-8";
  @font-face {
 	    font-family: Champagne;
-	    src: url(cac_champagne.woff) format('woff'),
-			url (cac_champagne.ttf) format('truetype');}
+	    src: url('cac_champagne.woff') format('woff'),
+			url ('cac_champagne.ttf') format('ttf');}
 @font-face {
 		font-family: Grunge;
-		src: url(1942.woff) format('woff'),
-	url(1942.ttf) format('truetype');}
+		src: url('1942.woff') format('woff'),
+	url('1942.ttf') format('ttf');}
 	
 @font-face {font-family: Dobkin;
-		src: url(DobkinPlain.woff) format('woff'),
-	url (DobkinPlain.ttf) format('truetype');}
+		src: url('DobkinPlain.woff') format('woff'),
+	url ('DobkinPlain.ttf') format('ttf');}
 
 	html {
 		background-color: hsl(91, 8%, 56%);
