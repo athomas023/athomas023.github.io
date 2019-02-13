@@ -1,0 +1,108 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: Alisha Thomas
+   Date:   02/06/2019
+   
+   Filename: ph_styles.css
+   @charset "utf-8";
+  
+	
+*/
+
+
+/* Structural Styles */
+
+ @font-face {
+	    font-family: Champagne;
+	    src: url('cac_champagne.woff') format('woff')
+			url ('cac_champagne.ttf') format('truetype');}
+	@font-face {
+		font-family: Grunge;
+		src: url('1942.woff') format('woff')
+	url('1942.ttf') format('truetype');}
+	
+	@font-face {font-family: Dobkin;
+		src: url('DobkinPlain.woff') format('woff')
+	url ('DobkinPlain.ttf') format('truetype');}
+
+	html {
+		background-color: hsl(91, 8%, 56%);
+	}
+	body {
+		background-color: hsl(58,31%,84%);
+		font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino serif';
+		p {
+			font-size: 1.1em;
+			text-align: center;
+		}
+
+	header {
+		color: black;
+	}
+	p {
+		margin: 0;
+		padding-top: 5;
+		padding-right: 25;
+		padding-bottom: 25;
+		padding-left: 25;
+	}
+	
+	body, p {font-size: 1.1em;
+			text-align: center;}
+			
+	address {font-style: normal;
+	font-size: 0.9em;
+	text-align: center;
+	padding-top: 10p;
+	padding-bottom: 10px;}
+			
+/* Navigation Styles */
+
+nav {font-family: 'Trebuchet MS', Helvetica, sans-serif;
+padding-top: 10px;
+padding-bottom: 10 px;}
+a:link {color: white;
+font-color: hsl(0,0%,100%,0.7) 
+background-color: hsl(0, 0%. 42%, 0.7}
+
+
+/* Section Styles */
+
+section.playbill h1 { font-size: 3em;
+font-weight: normal;
+margin: 0;
+padding-top: 20;
+padding-right: 0;
+padding-bottom: 10;
+padding-left:20;
+}
+
+#play1 {background-color: hsl(240,100%,88%);}
+#play2 {background-color: hsl(25,88%,73%);}
+#play3 {background-color: hsl(0,100%,75%);}
+#play4 {background-color: hsl(296,86%,86%);}
+
+h1.play1 {font-style: Champagne, cursive;}
+h1.play2 {font-style: Grunge, "Times New Roman", Times, serif;}
+h1.play3 {font-style: Impact, Charcoal, sans-serif;}
+h1.play4 {font-style: Dobkin, cursive;}
+
+/* Description List Styles */
+
+dt {font-size: 1.3em;
+font-weight: bold; font-color: hsla(0,0%,0%,0.4)}
+
+dd { font-size: 1.3em;
+
+margin-left: 0px;
+margin-bottom:}
+
+
+
+
+
+
