@@ -15,70 +15,82 @@
 
 
 /* Structural Styles */
-
+ @charset "utf-8";
  @font-face {
 	    font-family: Champagne;
-	    src: url('cac_champagne.woff') format('woff')
-			url ('cac_champagne.ttf') format('truetype');}
-	@font-face {
+	    src: url(cac_champagne.woff) format('woff'),
+			url (cac_champagne.ttf) format('truetype');}
+@font-face {
 		font-family: Grunge;
-		src: url('1942.woff') format('woff')
-	url('1942.ttf') format('truetype');}
+		src: url(1942.woff) format('woff'),
+	url(1942.ttf) format('truetype');}
 	
-	@font-face {font-family: Dobkin;
-		src: url('DobkinPlain.woff') format('woff')
-	url ('DobkinPlain.ttf') format('truetype');}
+@font-face {font-family: Dobkin;
+		src: url(DobkinPlain.woff) format('woff'),
+	url (DobkinPlain.ttf) format('truetype');}
 
 	html {
 		background-color: hsl(91, 8%, 56%);
 	}
 	body {
 		background-color: hsl(58,31%,84%);
-		font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino serif';
-		p {
-			font-size: 1.1em;
-			text-align: center;
-		}
-
+		font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	}
 	header {
 		color: black;
 	}
 	p {
-		margin: 0;
-		padding-top: 5;
-		padding-right: 25;
-		padding-bottom: 25;
-		padding-left: 25;
+		margin: 0px;
+		padding-top: 5px;
+		padding-right: 25px;
+		padding-bottom: 25px;
+		padding-left: 25px;
 	}
 	
-	body, p {font-size: 1.1em;
+	body > p {font-size: 1.1em;
 			text-align: center;}
 			
 	address {font-style: normal;
 	font-size: 0.9em;
 	text-align: center;
-	padding-top: 10p;
+	padding-top: 10px;
 	padding-bottom: 10px;}
 			
 /* Navigation Styles */
 
-nav {font-family: 'Trebuchet MS', Helvetica, sans-serif;
+nav a {font-family: 'Trebuchet MS', Helvetica, sans-serif;
 padding-top: 10px;
-padding-bottom: 10 px;}
-a:link {color: white;
-font-color: hsl(0,0%,100%,0.7) 
-background-color: hsl(0, 0%. 42%, 0.7}
+padding-bottom: 10px;}
+
+nav > ul > li > a:link 
+{color: white; 
+background-color: hsla(0, 0%, 42%, 0.4); 
+text-decoration: none;}
+
+nav > ul > li > a:visited 
+{color: white; 
+background-color: hsla(0, 0%, 42%, 0.4);}
+
+nav > ul > li > a:active
+{color: hsla(0,0%,100%, 0.7); 
+background-color: hsla(0, 0%, 42%, 0.7); 
+}
+nav > ul > li > a:hover 
+{color: hsla(0,0%,100%, 0.7);
+background-color: hsla(0, 0%, 42%, 0.7);}
+
 
 
 /* Section Styles */
 
-section.playbill h1 { font-size: 3em;
+section.playbill > h1 
+{ font-size: 3em;
 font-weight: normal;
-margin: 0;
-padding-top: 20;
-padding-right: 0;
-padding-bottom: 10;
-padding-left:20;
+margin: 0px;
+padding-top: 20px;
+padding-right: 0px;
+padding-bottom: 10px;
+padding-left:20px;
 }
 
 #play1 {background-color: hsl(240,100%,88%);}
@@ -86,20 +98,30 @@ padding-left:20;
 #play3 {background-color: hsl(0,100%,75%);}
 #play4 {background-color: hsl(296,86%,86%);}
 
-h1.play1 {font-style: Champagne, cursive;}
-h1.play2 {font-style: Grunge, "Times New Roman", Times, serif;}
-h1.play3 {font-style: Impact, Charcoal, sans-serif;}
-h1.play4 {font-style: Dobkin, cursive;}
+#play1 > h1 {font-family: Champagne, cursive;
+background-color: hsl(240,100%,88%);}
+
+#play2 > h1 {font-family: Grunge, "Times New Roman", Times, serif;
+background-color: hsl(25,88%,73%);}
+
+#play3 > h1 {font-family: Impact, Charcoal, sans-serif;
+background-color: hsl(0,100%,75%);}
+
+#play4 > h1 {font-family: Dobkin, cursive;
+background-color: hsl(296,86%,86%);}
+
 
 /* Description List Styles */
 
-dt {font-size: 1.3em;
-font-weight: bold; font-color: hsla(0,0%,0%,0.4)}
+dt 
+{font-size: 1.3em;
+font-weight: bold; 
+color: hsla(0,0%,0%,0.4);}
 
-dd { font-size: 1.3em;
-
+dd 
+{ font-size: 1.3em;
 margin-left: 0px;
-margin-bottom:}
+margin-bottom: 10px;}
 
 
 
