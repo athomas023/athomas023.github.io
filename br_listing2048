@@ -15,6 +15,7 @@
    <title>Browyer Realty</title>
    <meta charset="utf-8"/>
    <link href="br_reset.css" rel="stylesheet"/>
+   <link href="br_layout.css" rel="stylesheet"/>
    <link href="br_styles.css" rel="stylesheet"/>
 </head>
 
@@ -61,6 +62,20 @@ a beautiful wooded area.</p>
 basement for more living space.</p>
 
 </body>
+<aside><h1>Views</h1>
+<nav>
+	<ul>
+		<li><img src="br_photo1.png">Front View</a> </li>
+		<li><a href="br_photo2.png">Rear View</a></li>
+		<li><a href="br_photo3.png">Side View</a></li>
+		<li><a href="br_photo4.png">Dining Room</a></li>
+		<li><a href="br_photo5.png">Kitchen</a> </li>
+		<li><a href="br_photo6.png">Living Room</a></li>
+		<li><a href="br_photo7.png">Bedroom 1</a></li>
+		<li><a href="br_photo8.png">Bedroom 2</a></li>
+		<li><a href="br_photo9.png">Bedroom 3</a></li>
+	</ul></nav>
+</aside>
 <nav>
 	<ul>
 		<li><a href="#">More Details</a> </li>
