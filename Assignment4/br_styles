@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Alisha Thomas
+   Date: 03/22/2019
+	
+   Filename: br_styles.css
+
+*/
+/*HTML Styles*/
+
+html
+{
+	background: url(br_paper.png);
+	background-repeat: round;
+	background-attachment:fixed;
+	
+}
+body
+{
+	margin:0 auto;
+	width: 100%;
+	max-width:1020px;
+	min-width:640px;
+}
+article#photos
+{
+	background: linear-gradient(to right, white, gray, white);
+}
+header > img
+{
+	margin:0px;
+	width:100%;
+}
+article > h1
+{
+	text-shadow: black 2px 2px 2px
+}
+article > h2
+{
+	text-shadow: black 2px 2px 2px
+}
+article#photos > h1
+{
+	text-shadow: black 2px 2px 2px
+}
+article#listing
+{
+	display:block;
+	width:100%;
+	float:left;
+	border:solid black;
+	border-style:double solid;
+	border-radius: 10px 10px 10px 10px; 
+	padding: 10px 10px 10px 10px;
+	background: radial-gradient (circle closest-corner at center center, white, gray, white);
+}
+article
+{
+	box-shadow: black 10px 5px 10px
+}
+article#photos
+{
+	border:double black;
+	border-radius: 10px 10px 10px 10px;
+}
+#FrontView
+{
+	transform: rotate(5deg) scale(0.9, 0.9);	
+	filter:contrast(1.5);
+}
+#RearView
+{
+	transform: rotate(-5deg) scale(0.9, 0.9);
+	filter:contrast(2.0);
+}
+#SideView
+{
+	transform: rotate(5deg) scale(0.9, 0.9);
+	filter:contrast(1.5);
+}
+#DiningRoom
+{
+	transform: rotate(-5deg) scale(0.9, 0.9);
+	filter: contrast(3.0);
+}
+#Kitchen
+{
+	transform: rotate(5deg) scale(0.9, 0.9);
+	filter:contrast(1.0);
+}
+#LivingRoom
+{
+	transform: rotate(-5deg) scale(0.9, 0.9);
+	filter:hue-rotate(50deg);
+}
+#Bedroom1
+{
+	transform: rotate(5deg) scale(0.9, 0.9);
+	filter:saturate(2.5);
+}
+#Bedroom2
+{
+	transform: rotate(-5deg) scale(0.9, 0.9);
+	filter: invert(0.5);
+}
+#Bedroom3
+{
+	transform: rotate(5deg) scale(0.9,0.9)
+	filter: none;
+}
+/*Navigation List Styles*/
+
+body > header > nav > ul > li
+{
+	width: 20%;
+	display:block;
+	border:solid black;
+	border-radius: 10px 10px 10px 10px;
+	float:left;
+	padding: 20px 20px 20px 20px;
+}
+
+footer > nav > ul > li
+{
+	width:25%;
+	display:block;
+	border:black;
+	float:left;
+	padding: 20px 20px 20px 20px;
+}
