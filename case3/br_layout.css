@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Alisha Thomas	
+   Date:   03/22/2019 
+	
+   Filename: br_layout.css
+
+*/	
+body 
+{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+}
+
+body > header 
+{
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+}
+
+body > header > img 
+{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+/* Navigation List Styles */
+nav {
+	display: table;
+	width: 100%;
+}
+
+nav > ul {
+	display: table-row;
+}
+
+nav > ul > li {
+	display: table-cell;
+	text-align: center;
+}
+
+nav > ul > li > a {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
