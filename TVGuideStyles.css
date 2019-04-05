@@ -1,0 +1,69 @@
+@charset="utf-8";
+
+html
+{
+	background-color:darkblue;
+    background-image: url('toons\toonsbackground.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+    
+#row1
+{
+	font-size:0.75em;
+	width:100%;
+	position:fixed;
+}
+table.schedule
+{
+	font-size:0.75em;
+	width:100%;
+}
+table.schedule#scroll
+{
+	position:relative;
+}
+
+table.schedule th, table.schedule tr, table.schedule td
+{
+	border:3px solid black;
+}
+table.schedule th
+{
+	background-color:teal;
+}
+#Disney
+{
+	background-color:purple;
+}
+#Nickelodeon
+{
+	background-color:green;
+}
+#CartoonNetwork
+{
+	background-color:lightblue;
+}
+tr:nth-child(even)
+{
+	background-color:yellow;
+}
+tr:nth-child(odd)
+{
+	background-color:orange;
+}
+header
+{
+	width:100%;
+	display:block;
+	font-size:3em;
+	border:3px solid black;
+	text-align:center;
+	background-color:teal;
+}
+tr:hover
+{
+	background-color:black;
+	color:white;
+}
